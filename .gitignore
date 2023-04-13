@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+
+# Local environment
+.env
+
+# Environment folder
+env/
+
+# Compiled files
+*.pyc
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Database files
+*.db
+*.sqlite3
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+*.pydevproject
+*.pydevworkspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Other generated files
+venv/
+instance/
