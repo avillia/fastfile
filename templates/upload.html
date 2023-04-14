@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Upload new file</title>
+        <meta name="description" content="Page to upload your file to mine cloud storage">
+        <link rel="stylesheet" href="../static/main.css">
+    </head>
+    <body>
+        <header>
+            <h1>FastFiles</h1>
+        </header>
+        <main>
+            <section id="upload_block">
+                <section id="upload_form">
+                    <h2>Upload new File</h2>
+                    <form method=post enctype=multipart/form-data>
+                        <input type=file name=file>
+                        <input type=submit value=Upload!>
+                    </form>
+                </section>
+            </section>
+            <section id ="logging_block">
+                <h2>Logging appears here (more recent shows upper):</h2>
+                <section id="logs">
+
+                </section>
+            </section>
+        </main>
+        <footer>
+            <p>FastFiles</p>
+            <p>2023</p>
+            <p>Illia Avdiienko</p>
+        </footer>
+    </body>
+</html>

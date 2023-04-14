@@ -1,0 +1,32 @@
+* {
+    font-family: Verdana, serif;
+    background-color: #333333;
+    color: whitesmoke;
+}
+
+body {
+    min-height: 100vh;
+    display:flex;
+    flex-direction:column;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#logs {
+    flex: 1;
+}
+
+footer {
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#file_stats {
+    display: block;
+}
