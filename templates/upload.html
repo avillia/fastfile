@@ -11,18 +11,16 @@
         </header>
         <main>
             <section id="upload_block">
-                <section id="upload_form">
-                    <h2>Upload new File</h2>
-                    <form method=post enctype=multipart/form-data>
-                        <input type=file name=file>
-                        <input type=submit value=Upload!>
-                    </form>
-                </section>
+                <form method=post enctype=multipart/form-data>
+                    <label for="file">Your file:</label>
+                    <input type=file name=file>
+                    <input type=submit value=Upload!>
+                </form>
             </section>
             <section id ="logging_block">
                 <h2>Logging appears here (more recent shows upper):</h2>
                 <section id="logs">
-
+                    ... some magic with fetch api will go here ...
                 </section>
             </section>
         </main>
