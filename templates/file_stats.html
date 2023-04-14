@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>{{ filename }} on FastFiles</title>
+        <meta name="description" content="Page to show stats of file and download it">
+        <link rel="stylesheet" href="../static/main.css">
+    </head>
+    <body>
+        <header>
+            <h1>FastFiles</h1>
+        </header>
+        <main>
+            <section id="file_stats_block">
+                <section id="file_stats">
+                    <h1>{{ filename }}: </h1>
+                    <p>Uploaded at: {{ upload_datetime }}</p>
+                    <p>Upload duration: {{ upload_duration }}</p>
+                    <p><a href="{{ download_link }}">Click here to download this file</a></p>
+                    <p>Link to this page: <a href="{{ stat_page_link }}">{{ stat_page_link }}</a></p>
+                </section>
+            </section>
+            <section id ="logging_block">
+                <h2>Logging appears here (more recent shows upper):</h2>
+                <section id="logs">
+
+                </section>
+            </section>
+        </main>
+        <footer>
+            <p>FastFiles</p>
+            <p>2023</p>
+            <p>Illia Avdiienko</p>
+        </footer>
+    </body>
+</html>
